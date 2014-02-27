@@ -27,7 +27,7 @@
 
     <groupId>org.apache.storm</groupId>
     <artifactId>storm</artifactId>
-    <version>0.9.1-incubating</version>
+    <version>0.9.1-incubating-httpclient425</version>
     <packaging>pom</packaging>
     <name>Storm</name>
     <description>Distributed and fault-tolerant realtime computation</description>
@@ -135,7 +135,7 @@
     <scm>
         <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-storm.git</connection>
         <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-storm.git</developerConnection>
-        <tag>v0.9.1-incubating</tag>
+        <tag>HEAD</tag>
         <url>https://git-wip-us.apache.org/repos/asf/incubator-storm</url>
     </scm>
 
@@ -162,7 +162,7 @@
         <clojure.math.numeric-tower.version>0.0.1</clojure.math.numeric-tower.version>
         <carbonite.version>1.3.2</carbonite.version>
         <snakeyaml.version>1.11</snakeyaml.version>
-        <httpclient.version>4.1.1</httpclient.version>
+        <httpclient.version>4.2.5</httpclient.version>
         <clojure.tools.cli.version>0.2.2</clojure.tools.cli.version>
         <disruptor.version>2.10.1</disruptor.version>
         <jgrapht.version>0.9.0</jgrapht.version>
